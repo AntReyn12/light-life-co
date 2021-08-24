@@ -4,6 +4,12 @@ body {
   background-color: linen;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -20,7 +26,7 @@ body {
   font-size: 50px;
   width: 100%;
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .header p {
@@ -30,7 +36,32 @@ body {
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Dancing Script";
   font-weight: bold;
   width: 100%;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: solid white;
+  margin-top: 10px;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header nav li {
+  color: white;
+  font-family: "Dancing Script";
+  font-size: 20px;
 }
